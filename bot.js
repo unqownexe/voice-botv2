@@ -6,9 +6,9 @@ client.on("voiceStateUpdate", async (oldMember, newMember) => {
   let kanalID = ""; //SES KANALI
   let logID = "" // LOG KANALI
   let kanaldlink = "" // SES KANALININ DAVET LINKI (SINIRSIZ)
-  let üyerol = "678279073658830908" // ÜYE ROL ID
-  let hayıremoji = "<a:hayir2:678582047283085322>" // HAYIR EMOJİSİ
-  let evetemoji = "<a:hayir2:678582047283085322>" // HAYIR EMOJİSİ
+  let üyerol = "" // ÜYE ROL ID
+  let hayıremoji = "" // HAYIR EMOJİSİ
+  let evetemoji = "" // HAYIR EMOJİSİ
   let user = client.users.get(newMember.id);
   const moment = require ("moment")
   const kurulus = new Date().getTime() - user.createdAt.getTime();
@@ -86,4 +86,4 @@ dispatcher.on("end", end => {
       console.log("-Aktif-")
     })
 
-client.login('NzE1NTAyODczNzU2MTcyMzIw.Xs-J-g.8vNsV2h_MNCtvCGukrlXz-p2LDY');
+client.login('');
